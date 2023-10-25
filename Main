@@ -1,0 +1,15 @@
+echo "Ewa Weglewska" >> README
+echo "" > main.py
+echo "" > test.py
+mkdir src
+git init
+git add README
+git add main.py
+git add test.py
+git add src
+echo "*.py" > .gitignore
+git add gitignore
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/MurdeRose/zad15.git
+git push -u origin main
